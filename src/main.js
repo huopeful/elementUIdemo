@@ -4,8 +4,12 @@ import router from './router'
 import store from './store'
 
 Vue.config.productionTip = false
-import { Alert } from 'element-ui'
+import {
+  Alert,
+  Radio
+} from 'element-ui'
 Vue.use(Alert)
+// Vue.use(Radio)
 
 new Vue({
   router,

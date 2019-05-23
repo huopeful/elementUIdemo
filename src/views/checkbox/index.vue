@@ -23,13 +23,18 @@ export default {
     data() {
         return {
             checked: true,
-            checkList: ['选中且禁用','复选框 A','复选框 B']
+            checkList: ['选中且禁用','复选框 A','复选框 B'],
+            aaa:'123'
         }
     },
     components:{
         checkboxDemo,
         checkboxButtonDemo,
         checkboxGroupDemo
+    },
+    mounted(){
+        console.log(this.aaa);
+        
     }
 }
 </script>
